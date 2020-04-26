@@ -73,16 +73,8 @@ color calculate_specular(double light[2][3], double *sreflect, double *view, dou
     c0 = 0;
   }
 
-  // t[RED] = normal[RED] * c0;
-  // t[GREEN] = normal[GREEN] * c0;
-  // t[BLUE] = normal[BLUE] * c0;
-
   //t = dot_product(normal, l)
   //s = (dot(n*l)) - l
-
-  // s[RED] = t[RED] - light[LOCATION][RED];
-  // s[GREEN] = t[GREEN] - light[LOCATION][GREEN];
-  // s[BLUE] = t[BLUE] - light[LOCATION][BLUE];
 
   r[RED] =  2 * normal[RED] * c0 - light[LOCATION][RED];
   r[GREEN] = 2 * normal[GREEN] * c0 - light[LOCATION][GREEN];

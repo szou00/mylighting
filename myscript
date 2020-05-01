@@ -1,0 +1,82 @@
+#WEIRD BOX?
+push
+move
+250 250 0
+scale
+2.8 2.8 2.8
+rotate
+y 5
+rotate
+z 5
+rotate
+x 5
+tea
+###3
+#idk why the colors are diff?
+push
+rotate
+z -35
+box
+55 30 -50 1 1 1
+pop
+#####
+#####
+#THE BOX
+color box
+box
+-60 60 0 120 120 120
+push
+#EYES
+sphere
+-30 20 0 20
+sphere
+30 20 0 10
+torus
+0 -20 0 5 6
+#SMILE
+#side 1
+eyes
+push
+rotate
+z -20
+box
+-15 -20 0 25 5 10
+pop
+#side 2
+push
+rotate
+z 20
+box
+-8 -21 0 25 5 10
+pop
+#LEGS?
+push
+rotate
+z 90
+tea
+torus
+-72 -30 -15 5 6
+pop
+push
+rotate
+z 90
+torus
+-75 40 -15 5 10
+pop
+#ARMS
+push
+rotate
+z 35
+box
+-90 30 0 30 5 10
+pop
+#RIGHT ARM
+push
+rotate
+z -30
+box
+60 30 -30 30 10 10
+pop
+display
+save
+box.png
